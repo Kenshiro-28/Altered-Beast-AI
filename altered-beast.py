@@ -1,3 +1,13 @@
+'''
+==================================================================================
+Name        : Altered Beast AI
+Author      : Kenshiro
+Version     : 1.00
+Copyright   : GNU General Public License (GPLv3)
+Description : Altered Beast AI based on the T-Rex evolutionary neural network
+==================================================================================
+'''
+
 #Action space: MultiBinary(12)
 #Observation space: Box(224, 320, 3)
 #Observation high: 255, low: 0
