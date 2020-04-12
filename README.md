@@ -61,7 +61,7 @@ $ pip3 install opencv-python
 
 ### Game ROM
 
-This program has been tested with the world version of the game. Run this command in the folder containing the ROM file:
+This program has been tested with the USA, Europe version of the game. Run this command in the folder containing the ROM file:
 
 ```
 $ python3 -m retro.import ./
