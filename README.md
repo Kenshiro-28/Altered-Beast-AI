@@ -27,7 +27,7 @@ The input of the neural network is the screen output of the Sega Genesis console
 
 ### Hidden layers
 
-The neural network has 2 hidden layers. The T-Rex architecture states that the number of neurons in each hidden layer is set as the number of input neurons so they have 7168 neurons.
+The neural network has 10 hidden layers. The T-Rex architecture states that the number of neurons in each hidden layer is set as the number of input neurons so they have 7168 neurons.
 
 ### Output layer
 
