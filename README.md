@@ -25,9 +25,9 @@ Main features:
 
 The input of the neural network is the screen output of the Sega Genesis console. The original image is processed with Canny edge detection to extract useful structural information and dramatically reduce the amount of data to be processed. Finally, the image resolution is reduced to half its original size. The input layer has 35840 neurons.
 
-### Hidden layer
+### Hidden layers
 
-The neural network has 1 hidden layer. The T-Rex architecture states that the number of neurons in each hidden layer is set as the number of input neurons, so it has 35840 neurons.
+The neural network has 2 hidden layers. The T-Rex architecture states that the number of neurons in each hidden layer is set as the number of input neurons, so they have 35840 neurons.
 
 ### Output layer
 
@@ -42,6 +42,25 @@ You must compile T-Rex as a shared library:
 https://github.com/Kenshiro-28/T-Rex
 
 Copy the generated file **libT-Rex.so** in the folder /usr/local/lib
+
+Run this command to add the folder to the library path:
+
+```
+$ sudo ldconfig /usr/local/lib
+```
+
+Copy the header files in the folder /usr/local/include/T-Rex
+
+``` 
+T-Rex
+   ├── data_tier
+   │   └── DataManager.h
+   ├── logic_tier
+   │   ├── NeuralLayer.h
+   │   └── NeuralNetwork.h
+   └── presentation_tier
+       └── ConsoleManager.h
+```
 
 ### Python
 
